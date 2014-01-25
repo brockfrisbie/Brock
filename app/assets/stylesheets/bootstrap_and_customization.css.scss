@@ -1,0 +1,39 @@
+$body-bg:		white;
+/* $navbar-inverse-bg:		*/		
+/*$navbar-inverse-link-color: #76EE00;  */
+$navbar-inverse-link-hover-color: #76EE00;
+$jumbotron-bg:	#2980b9;
+$jumbotron-font-size: 14px; 
+$jumbotron-font-family: Helvetica, Verdana;
+
+@import 'bootstrap';
+
+	header {
+		font-family: Helvetica, Verdana;
+	}
+
+	h2 {
+		font-weight: lighter;
+		font-size: 50px;
+		color: #76EE00;
+	}
+
+	nav {
+		font-family: Helvetica, Verdana;
+	}
+		
+	body {
+		padding-top: 60px;
+		padding-bottom: 42px;
+		font-family: Helvetica, Verdana;
+		font-weight: lighter;
+		font-size: 15px;
+		color: black;
+	}
+
+	img {
+		text-align: center;
+		border-radius: 20px;
+	}
+
+

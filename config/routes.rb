@@ -1,4 +1,8 @@
 Brock::Application.routes.draw do
+  root "pages#home"
+  get "crossfit" =>"pages#crossfit"
+  get "nutrition" =>"pages#nutrition"
+  get "professional" =>"pages#professional"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
